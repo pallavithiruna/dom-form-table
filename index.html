@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOMFORM</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>GETTING DETAILS FROM FORM</h1>
+    
+        <form name="emp">
+
+          <label>FIRSTNAME:</label>
+          <input type="text"placeholder="FIRSTNAME"id="child1"name="fname"/><br />
+
+          <label>LASTNAME:</label>
+          <input type="text"placeholder="LASTNAME"id="child2"name="lname"/><br />
+
+          <label>ADDRESS:</label>
+          <input type="text"placeholder="ADDRESS"id="child3"name="address"/><br />
+
+          <label >PINCODE:</label>
+          <input type="number"placeholder="PINCODE"id="child4"name="pincode"/><br />
+          
+          <label>GENDER:</label>
+          <input type="radio" id="male"  name="gender"value="male" />Male
+          <input type="radio" id="female" name="gender"value="female" />Female<br /> 
+
+
+          <!-- <label>CHOICE OF FOOD:</label>
+          <input type="radio" name="food" id="idly" value="idly" />Idly
+          <input type="radio"name="food" id="upma" value="upma" />Upma
+          <input type="radio" name="food"id="idiyappam" value="idiyappam" />Idiyappam
+          <input type="radio" name="food"id="pongal" value="pongal" />Pongal<br />  -->
+
+          <label>STATE:</label>
+          <input type="text"placeholder="STATE"id="child5"name="state"/><br />
+
+          <label >COUNTRY:</label>
+          <input type="text" placeholder="COUNTRY" id="child6" name="country" />
+          <span id="error"></span>
+
+        </form>
+
+        <button id="submit" onclick="submit()">SUBMIT</button>
+      
+        <table id="table">
+           <thead>
+                <tr>
+                   <th>FIRSTNAME</th>
+                   <th>LASTMAME</th>
+                   <th>ADDRESS</th>
+                   <th>PINCODE</th>
+                   <th>GENDER</th>
+                   <th>STATE</th>
+                   <th>COUNTRY</th>
+            </tr>
+          </thead>
+        </table>
+      
+    <script src="index.js"></script>
+  </body>
+</html>

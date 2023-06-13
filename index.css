@@ -1,0 +1,36 @@
+label{
+display:inline-block;    
+width:30%;
+color: brown;
+font-weight: 800;
+margin:10px;
+}
+#submit {
+    border:transparent;
+    border-radius: 8px;
+    background-color: rgb(232, 200, 200);
+    padding:10px;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-weight: bold;
+    color:brown
+    }
+
+.submit:hover{
+    background-color: rgb(183, 123, 123);
+    }
+
+
+table,th,td{
+        border: 1px solid rgb(167, 118, 118);
+        background-color: rgb(232, 200, 200);
+        border-collapse: collapse;
+    }
+    table{
+        font-size: 14px;
+        color:brown;
+        margin-top:20px;
+    }
+th,td{
+    padding: 20px;;
+}
